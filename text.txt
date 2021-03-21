@@ -1,0 +1,2 @@
+The well-ordering principle is a property of the positive integers which is equivalent to the statement of the principle of mathematical induction.
+Every nonempty set SS of non-negative integers contains a least element; there is some integer aa in SS
