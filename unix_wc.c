@@ -4,7 +4,7 @@ counting lines, words, and characters
 */
 #define IN 1
 #define OUT 0
-main()
+int main()
 {
 	FILE *fp = fopen("wc.txt","wb");
 	int ch,nw,nc,nl;
@@ -24,4 +24,5 @@ main()
 	}
 	printf("\ncharacters=%d words=%d lines=%d",nc,nw,nl);
 	fclose(fp);
+    return 0;
 }

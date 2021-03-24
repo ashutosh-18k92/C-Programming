@@ -13,7 +13,7 @@ int len(int *arr){
 int arr[SIZE]={1,2,3,4,5,6,7,8,9,10};
 int binarySearch(int x,int *arr);
 
-main(){
+int main(){
     printf("\n%s: index starts at 0\n",__FUNCTION__);
     int i=1;
     while(i<=len(arr))

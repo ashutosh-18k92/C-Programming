@@ -11,7 +11,7 @@ main() {
   printf("Double: %f\n", atof(num));
   return 0;
 }
-
+#7F7F7F#7F7F7F
 double atof(char *str) {
   double val, power;
   int i, sign;
